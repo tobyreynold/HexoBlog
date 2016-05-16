@@ -4,7 +4,7 @@ date: 2016-05-12 23:13:13
 tags: Forever
 ---
 ## Hexo简介
-Hexo是一个采用nodejs的静态博客，市面上的类似的博客也有很多，比较有名的Jekyll，Octopress等，到最早的wordPress，我无聊最后选Hexo纯是因为它用的是nodejs而已，其实Jekyll也很好用啊，用Jekyll+Pages一起就能随便搞一个博客，而且还不用自己买服务器，托管到github上还无需备案，无非就是国内访问github有时候有些慢你懂得，闲的无聊也弄了个[tobyreynold](https://tobyreynold.github.io/)，搞起来其实上手比hexo还快，你还可以自己的github账号下面直接建个XXX.github.io的git仓库然后直接一关联就可以了，你也可以买个域名直接指过去，不用他白给你的XXX.github.io也行，随意..
+Hexo是一个采用nodejs的静态博客，市面上的类似的博客也有很多，比较有名的Jekyll，Octopress等，到最早的wordPress，我无聊最后选Hexo纯是因为它用的是nodejs而已。其实Jekyll也很好用啊，用Jekyll+Pages一起就能随便搞一个博客，而且还不用自己买服务器，托管到github上还无需备案，无非就是国内访问github有时候有些慢你懂得，闲的无聊也弄了个[tobyreynold](https://tobyreynold.github.io/)，搞起来其实上手比hexo还快，你还可以自己的github账号下面直接建个XXX.github.io的git仓库然后直接一关联就可以了，你也可以买个域名直接指过去，不用他白给你的XXX.github.io也行，随意..![Hexo](https://hexo.io/logo.svg)
   
 
 ## Hexo搭建

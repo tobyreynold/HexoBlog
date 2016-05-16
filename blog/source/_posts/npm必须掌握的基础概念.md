@@ -16,7 +16,8 @@ npm其实就是一个包管理器，是方便JavaScript开发者分享和复用�
 $sudo npm install npm -g
 ``` 
 npm上发布的包，基本都可以通过下面这个链接看到每个包的具体信息情况：
-https://registry.npmjs.org/XXX（XXX是包的名字）例如[memwatch](https://registry.npmjs.org/memwatch)的各种历史版本信息(一个nodejs的内存监控工具)。
+https://registry.npmjs.org/XXX（XXX是包的名字）
+例如[memwatch](https://registry.npmjs.org/memwatch)的各种历史版本信息(一个nodejs的内存监控工具)。
 npm install是一个经常会用到的命令，--save和--registry参数也会经常使用
 ``` bash
 $npm install XXX --save --registry=XXX
