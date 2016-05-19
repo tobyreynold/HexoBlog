@@ -18,7 +18,7 @@ tags: Buffer
 
 ## Buffer的基本使用
 
-Buffer主要分为三个部分，创建Buffer，读取Buffer，写入Buffer，🌰如下：
+Buffer主要分为三个部分，创建Buffer，读取Buffer，写入Buffer， 🌰 如下：
 ### 创建Buffer
 
 ``` bash
