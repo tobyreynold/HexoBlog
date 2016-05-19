@@ -10,18 +10,21 @@ tags: Buffer
 
 ## Buffer支持的几种编码格式
 
-* 'ascii'
-* 'utf-8'
-* 'ucs2'
-* 'base64'
-* 'binary'
+* 'ascii' -  仅用于 7 位 ASCII 字符。这种编码方法非常快，并且会丢弃高位数据。
+* 'utf-8' - 多字节编码的 Unicode 字符。许多网页和其他文件格式使用 UTF-8。
+* 'ucs2' -  两个字节，以小尾字节序(little-endian)编码的 Unicode 字符。
+* 'base64' - Base64 字符串编码。
+* 'binary' - 将原始二进制数据转换成字符串的编码方式，仅使用每个字符的前8位。这种编码方法已经过时，应当尽可能地使用Buffer对象。Node 的后续版本将会删除这种编码。
 
 ## Buffer的基本使用
 
 Buffer主要分为三个部分，创建Buffer，读取Buffer，写入Buffer，🌰如下：
 ### 创建Buffer
+
 ``` bash
 var a = new Buffer(10); /* 新建Buffer */
 console.log(a);
-``` bash
+```
+
+未完待续...
 
