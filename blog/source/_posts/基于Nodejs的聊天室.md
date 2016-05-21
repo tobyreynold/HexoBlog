@@ -138,7 +138,7 @@ $:wq /*保存*/
 
 #### nodejs原生http模块的困惑
 
-socket.io里面教程里面有一段这样的代码
+socket.io教程里面有一段这样的代码
 ``` bash
 var http = require('http').Server(app);
 http.listen(3000, function(){
