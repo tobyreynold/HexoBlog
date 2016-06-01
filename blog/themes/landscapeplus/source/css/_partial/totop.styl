@@ -2,8 +2,51 @@
   position fixed
   display none
   z-index 9999
-  bottom 5em
-  right 1em
+  bottom 7em
+  right 10%
+  width 48px
+  height 47px
+  background rgba(0,0,0,.6)
+  border-radius 10px
   cursor pointer
   @media tabletmax
     display none !important
+
+
+.react {
+    background: #FFF;
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    display: inline-block;
+    left: 14px;
+    top: 11px;
+}
+
+ .icon-top {
+     border-top: 4px solid #fff;
+ } 
+
+ .icon-top:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border: 8px solid transparent;
+    border-top-width: 0;
+    border-bottom-color: #fff;
+    position: absolute;
+    left: 16px;
+    top: 16px;
+    margin-left: 0;
+}
+
+.icon-top:after {
+    content: '';
+    width: 6px;
+    height: 12px;
+    background: #FFF;
+    position: absolute;
+    left: 21px;
+    top: 23px;
+}  
+
