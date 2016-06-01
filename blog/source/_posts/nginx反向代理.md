@@ -1,5 +1,5 @@
 ---
-title: nginx反向代理
+title: Nginx反向代理
 date: 2016-05-14 09:47:05
 tags: Nginx
 ---
@@ -73,6 +73,24 @@ $ nginx -s reload
 ```
 
 就能生效了，然后启动各自服务的守护进程，就能正常访问了。
+
+## 查看Nginx哪些端口被占用
+
+执行 $ss -tnl
+``` bash
+$ss -tnl
+State      Recv-Q Send-Q         Local Address:Port        Peer Address:Port
+LISTEN     0      128            *:80                      *:*
+LISTEN     0      128            *:22                      *:*
+LISTEN     0      100            127.0.0.1:25              *:*
+LISTEN     0      128            *:4000                    *:*
+LISTEN     0      128            :::8080                   :::*
+LISTEN     0      128            :::80                     :::*
+LISTEN     0      128            :::22                     :::*
+LISTEN     0      128            :::3000                   :::*
+
+```
+就能看到结果列表了
 
 完...
 

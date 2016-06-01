@@ -1,5 +1,5 @@
 ---
-title: nodejs缓冲模块Buffer基础
+title: Nodejs缓冲模块Buffer基础
 date: 2016-05-18 15:49:00
 tags: Buffer
 ---
