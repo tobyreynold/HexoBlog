@@ -6,7 +6,7 @@ tags: MkDocs
 
 ## MkDocs是什么?
 
-MKDocs就是一个能快速，简单，优雅的生成静态文档站点的项目。文档用markdown书写，目录用YAML配置，弄好之后你可以把它放到Github的Pages 上，或者自己服务器上就可以了。并且也有好几套UI供你选择[MkDocs UI](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes)，特别适合那些做开源项目的童鞋，生成说明文档使用。总的来说，就是省时省力，效果还不错。
+MKDocs就是一个能快速，简单，优雅的生成静态文档站点的项目。文档用Markdown书写，目录用YAML配置，弄好之后你可以把它放到Github的Pages 上，或者自己服务器上就可以了。并且也有好几套UI供你选择[MkDocs UI](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes)，特别适合那些做开源项目的童鞋，生成说明文档使用。总的来说，就是省时省力，效果还不错。
 
 ## 安装
 
@@ -47,7 +47,7 @@ pages:
 theme: readthedocs /*选择了readthedocs主题*/
 ``` 
 
-上面这个配置基本就是[Pip Install](https://pip.pypa.io/en/stable/installing/)和这个效果差不多的，我这里就不给demo了，您也可以按照上面的教程实现以下，其实就是这个链接。
+上面这个配置基本就是[Pip Install](https://pip.pypa.io/en/stable/installing/)和这个效果差不多的，我这里就不给demo了，您也可以按照上面的教程实现以下，其实就是这个链接的效果。
 也可以进行以下其他的操作，例如：
 
 ``` bash
