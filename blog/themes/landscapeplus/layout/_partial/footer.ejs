@@ -4,10 +4,19 @@
   <% } %>
   <div class="outer">
     <div id="footer-info" class="inner">
-      &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %><br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-      .
-      Theme by <a href="https://github.com/xiangming/landscape-plus" target="_blank">Landscape-plus</a>
+      &copy; <%= date(new Date(), 'YYYY') %> <a href="https://github.com/tobyreynold" target="_blank"><%= config.author || config.title %></a><br>
+      <%= __('powered_by') %> <a href="http://hexo.io/" target="_blank">Hexo</a><br>
+      京ICP备16021492
     </div>
   </div>
+  <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?46f3e0135c6c7bb8fd73ab97ddf8e36c";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+
 </footer>
