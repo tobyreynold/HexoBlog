@@ -45,8 +45,8 @@ var duoshuoQuery = {short_name:"<%= config.duoshuo_shortname || theme.duoshuo_sh
 <script>
   function SetShareData(cmd, config) {
     if (shareDataTitle && shareDataUrl) {
-      config.bdText = shareDataTitle;
-      config.bdUrl = shareDataUrl;
+      config.bdText = encodeURIComponent(shareDataTitle);
+      config.bdUrl = encodeURIComponent(shareDataUrl);
     }
     return config;
   }
