@@ -14,7 +14,7 @@ MKDocs就是一个能快速，简单，优雅的生成静态文档站点的项�
 这里提一嘴，你的新建一个get-pip.py文件，从上面的安装教程里面下载一段Python代码拷进去，然后执行下面命令，Pip才能安装成功
 
 ``` bash
-$sodu python get-pip.py /* 最好加上sudo，否则最后有可能某些文件权限不够安装失败*/
+$sudo python get-pip.py /* 最好加上sudo，否则最后有可能某些文件权限不够安装失败*/
 $pip --version
 pip 1.5.2
 ``` 
@@ -22,7 +22,7 @@ pip 1.5.2
 Pip安装成功之后，接着安装Mkdocs，执行下面的命令
 
 ``` bash
-$sodu pip install mkdocs /* 最好加上sudo，否则最后有可能某些文件权限不够安装失败*/
+$sudo pip install mkdocs /* 最好加上sudo，否则最后有可能某些文件权限不够安装失败*/
 $mkdocs --version
 mkdocs, version 0.15.2
 ``` 
