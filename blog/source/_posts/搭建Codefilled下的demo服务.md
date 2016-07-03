@@ -14,7 +14,7 @@ tags: Demo
 
 * HTML5 电池🔋的API的Demo[H5🔋电池 API](http://demo.codefilled.com/battery).
 
-* HTML5 GeoLocation定位的Demo，[H5定位](http://demo.codefilled.com/geolocation)，测试接入的是腾讯的定位，参考文档[腾讯地图开放平台](http://lbs.qq.com/tool/component-geolocation.html)
+* HTML5 GeoLocation定位的Demo，[H5定位](http://demo.codefilled.com/geolocation)，测试接入的是腾讯的定位，参考文档[腾讯地图开放平台](http://lbs.qq.com/tool/component-geolocation.html).
 
 ## 结语
 
