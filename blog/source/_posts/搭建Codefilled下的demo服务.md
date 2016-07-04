@@ -16,7 +16,7 @@ tags: Demo
 
 * HTML5 GeoLocation定位的Demo，[H5定位](http://demo.codefilled.com/geolocation)，测试接入的是腾讯的定位，参考文档[腾讯地图开放平台](http://lbs.qq.com/tool/component-geolocation.html).
 
-** HTML5 GeoLocation定位携带Map的Demo，[H5带Map展示的定位Demo](http://demo.codefilled.com/geolocation/maps).
+* HTML5 GeoLocation定位携带Map的Demo，[H5带Map展示的定位Demo](http://demo.codefilled.com/geolocation/maps).
  
 ## 结语
 
