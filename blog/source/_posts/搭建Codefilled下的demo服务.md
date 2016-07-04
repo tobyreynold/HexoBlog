@@ -16,6 +16,8 @@ tags: Demo
 
 * HTML5 GeoLocation定位的Demo，[H5定位](http://demo.codefilled.com/geolocation)，测试接入的是腾讯的定位，参考文档[腾讯地图开放平台](http://lbs.qq.com/tool/component-geolocation.html).
 
+** HTML5 GeoLocation定位携带Map的Demo，[H5带Map展示的定位Demo](http://demo.codefilled.com/geolocation/maps).
+ 
 ## 结语
 
 HTML5的那个🔋Demo 纯是为了玩，定位这个是腾讯这边对H5 GeoLocation做了优化改进的定位组件，比较适合移动H5开发，针对经常会在微信、手Q里面使用定位功能的场景，做了专门针对腾讯系列社交app内嵌的优化。
