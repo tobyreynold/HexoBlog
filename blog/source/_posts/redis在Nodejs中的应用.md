@@ -42,8 +42,28 @@ $ sudo mv redis.conf /usr/local/etc
 $ /usr/local/bin/redis-server /usr/local/etc/redis.conf
 ```
 启动成功画面：
-![Redis启动成功](http://static.oschina.net/uploads/space/2015/1101/155405_qeiq_941605.png)
-
+``` bash
+13417:M 10 Jul 16:52:00.552 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._
+           _.-``__ ''-._
+      _.-``    `.  `_.  ''-._           Redis 3.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 13417
+  `-._    `-._  `-./  _.-'    _.-'
+ |`-._`-._    `-.__.-'    _.-'_.-'|
+ |    `-._`-._        _.-'_.-'    |           http://redis.io
+  `-._    `-._`-.__.-'_.-'    _.-'
+ |`-._`-._    `-.__.-'    _.-'_.-'|
+ |    `-._`-._        _.-'_.-'    |
+  `-._    `-._`-.__.-'_.-'    _.-'
+      `-._    `-.__.-'    _.-'
+          `-._        _.-'
+              `-.__.-'
+13417:M 10 Jul 16:52:00.553 # Server started, Redis version 3.0.6
+13417:M 10 Jul 16:52:00.554 * The server is now ready to accept connections on port 6379
+```
 如果你有写入操作，控制台就会出现信息，类似于：
 ``` bash
 13417:M 10 Jul 16:52:00.553 # Server started, Redis version 3.0.6
