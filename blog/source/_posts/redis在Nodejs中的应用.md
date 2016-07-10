@@ -1,12 +1,12 @@
 ---
-title: redis在Nodejs中的应用
+title: Redis在Nodejs中的应用
 date: 2016-07-10 21:14:33
-tags: redis
+tags: Redis
 ---
 
 ## 什么是Redis？
 
-redis是一个开源的拿C语言编写的可持久化的日志型、Key-value的数据库，提供多种语言的API，Nodejs可以以很容易的使用。类似的还有Memcached，Redis和Memcached有一样的地方也有不一样的地方，一样的地方比如：他们都是将数据存到内存中，提高读写速度，避免直接对数据组直接进行读写操作，不一样的地方有很多：Memcached是多线程非阻塞I/O模型，Redis是单线程的I/O复用模型，对于单线程可以将速度优势发挥到最大，实现了epoll，Nodejs的V8核心其实也是epoll，这点上来说两者有着共同的东西，具体Redis和Memcached之间的区别可以移步，[Redis与Memcached的区别](http://blog.csdn.net/tonysz126/article/details/8280696/)，因为是纯内存操作，Redis的性能非常出色，每秒可以处理超过10万次读写操作，貌似是性能最快的Key-Value DB.![NodeRedis](https://cloud.githubusercontent.com/assets/1152927/8677879/35748710-2a17-11e5-8cc6-7aeb72caaa52.png)
+Redis是一个开源的拿C语言编写的可持久化的日志型、Key-value的数据库，提供多种语言的API，Nodejs可以以很容易的使用。类似的还有Memcached，Redis和Memcached有一样的地方也有不一样的地方，一样的地方比如：他们都是将数据存到内存中，提高读写速度，避免直接对数据组直接进行读写操作，不一样的地方有很多：Memcached是多线程非阻塞I/O模型，Redis是单线程的I/O复用模型，对于单线程可以将速度优势发挥到最大，实现了epoll，Nodejs的V8核心其实也是epoll，这点上来说两者有着共同的东西，具体Redis和Memcached之间的区别可以移步，[Redis与Memcached的区别](http://blog.csdn.net/tonysz126/article/details/8280696/)。因为是纯内存操作，Redis的性能非常出色，每秒可以处理超过10万次读写操作，貌似是性能最快的Key-Value DB.![NodeRedis](https://cloud.githubusercontent.com/assets/1152927/8677879/35748710-2a17-11e5-8cc6-7aeb72caaa52.png)
 
 
 ## 安装Redis
