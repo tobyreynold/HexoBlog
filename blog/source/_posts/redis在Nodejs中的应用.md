@@ -100,7 +100,7 @@ Reply: 0
 
 ## 未完待续
 
-后续可以关注[Codefilled Demo](http://codefilled.com/)，会在这里完成一个Redis的Demo，大概思路是一个可视化的界面，实现Redis的各种操作。
+后续可以关注[Codefilled Demo](http://demo.codefilled.com/)，会在这里完成一个Redis的Demo，大概思路是一个可视化的界面，实现Redis的各种操作。
 
 ## 结语
 
