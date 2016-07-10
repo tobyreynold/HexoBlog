@@ -22,7 +22,7 @@ $ cd redis
 $ make
 $ make test
 $ make install
-``` 
+```
 
 #### 配置Redis.conf
 
