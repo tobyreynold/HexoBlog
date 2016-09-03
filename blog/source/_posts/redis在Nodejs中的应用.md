@@ -90,7 +90,6 @@ Nodejs for Redis 专门有一个官方文档，查询使用方法可以移步到
 下面是一个简单的demo，大概意思就是新建一个Redis的client，默认的这个Nodejs的client会去连接本地127.0.0.1:6379是否有Redis服务，如果连接成功，则可以往上面配置的指定路径中写入dump.rdb文件，数据文件一般存放在内存中，只要不断开连接，随时可以进行读写，最下面的那个forEach大概意思就是把Redis中Key是"hash key"的字段全部遍历出来。
 ``` bash
 var redis = require("redis"),option = {},client = redis.createClient(option);
-
 client.on("error", function (err) {
     console.log("Error " + err);
 });
@@ -104,7 +103,8 @@ client.hkeys("hash key", function (err, replies) {
     });
     client.quit();
 });
-``` bash
+```
+
 Nodejs执行之后，控制台会打出这样的结果：
 ``` bash
 Reply: OK
