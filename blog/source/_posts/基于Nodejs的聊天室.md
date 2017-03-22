@@ -6,8 +6,8 @@ tags: WebSocket
 
 ## 什么是WebSocket和Socket.io?
 
-![](http://cdn.socket.io/website/imgs/logo.svg)
-WebSocket是HTML5的一种通讯协议，实现了浏览器和服务器之间的双向通讯，[Socket.io](http://socket.io/)是一个完全用JavaScript实现的，基于Nodejs和WebSocket的协议做的一个开源框架，Socket.IO除了支持WebSocket通讯协议外，还支持许多种轮询（Polling）机制以及其它实时通信方式，并封装成了通用的接口，并且在服务端实现了这些实时机制的相应代码。Socket.IO实现的Polling通信机制包括Adobe Flash Socket、AJAX长轮询、AJAX multipart streaming、持久Iframe、JSONP轮询等。Socket.IO能够根据浏览器对通讯机制的支持情况自动地选择最佳的方式来实现网络实时应用。
+![](https://cdn.socket.io/website/imgs/logo.svg)
+WebSocket是HTML5的一种通讯协议，实现了浏览器和服务器之间的双向通讯，[Socket.io](https://socket.io/)是一个完全用JavaScript实现的，基于Nodejs和WebSocket的协议做的一个开源框架，Socket.IO除了支持WebSocket通讯协议外，还支持许多种轮询（Polling）机制以及其它实时通信方式，并封装成了通用的接口，并且在服务端实现了这些实时机制的相应代码。Socket.IO实现的Polling通信机制包括Adobe Flash Socket、AJAX长轮询、AJAX multipart streaming、持久Iframe、JSONP轮询等。Socket.IO能够根据浏览器对通讯机制的支持情况自动地选择最佳的方式来实现网络实时应用。
 
 
 ## 准备工作
@@ -51,7 +51,7 @@ $pm2 list
 $pm2 stop all/[id|name]  /*可以直接停止对应的进程*/
 ```
 
-有点跑题了，PM2这里不多讲了，可以直接去[PM2](http://pm2.keymetrics.io/docs/usage/pm2-api/#programmatic-api)的官网自己研究，PM2也提供了一些可编程的API，可以直接写Nodejs来实习PM2的一些指令操作。
+有点跑题了，PM2这里不多讲了，可以直接去[PM2](https://pm2.keymetrics.io/docs/usage/pm2-api/#programmatic-api)的官网自己研究，PM2也提供了一些可编程的API，可以直接写Nodejs来实习PM2的一些指令操作。
 
 ## 第三步 
 
@@ -132,7 +132,7 @@ module.exports = router;
 
 $:wq /*保存*/
 ```
-保存完毕之后，这时候代码基本就算弄完了，在工程目录里面 npm start 之后就能在浏览器中看到效果了，本网站已经开放了简易聊天室了，可以直接移步这里看demo，[WebSocket聊天室](http://m.codefilled.com/)。
+保存完毕之后，这时候代码基本就算弄完了，在工程目录里面 npm start 之后就能在浏览器中看到效果了，本网站已经开放了简易聊天室了，可以直接移步这里看demo，[WebSocket聊天室](https://m.codefilled.com/)。
 
 ## 遇到的坑以及解决方法
 
@@ -158,7 +158,7 @@ server.listen(port);
 
 这时候俺就震惊了，同是Require的http，为毛启动一个服务会有两种createServer()和Server()两种？你去查nodejs[官方文档](https://nodejs.org/api/http.html)，发现也只有第一种，那么第二种是什么鬼？
 
-stackoverflow上给出了[答案](http://stackoverflow.com/questions/26921117/http-createserverapp-v-http-serverapp)，其实这时候就得翻nodejs的源码了，源码在这里[nodejs http模块](https://github.com/nodejs/node-v0.x-archive/blob/523929c9272a53c9429616564a45f2af59670e47/lib/http.js#L1903-L1905)，仔细看下第1903行到1905行，就能明白在实现过程中遇到的困惑了。不过从上面的url上可以看到github上看代码的一个小技巧，url后面hash值接L50-L60的意思就是浏览器可以直接定位第50行到60行。
+stackoverflow上给出了[答案](https://stackoverflow.com/questions/26921117/http-createserverapp-v-http-serverapp)，其实这时候就得翻nodejs的源码了，源码在这里[nodejs http模块](https://github.com/nodejs/node-v0.x-archive/blob/523929c9272a53c9429616564a45f2af59670e47/lib/http.js#L1903-L1905)，仔细看下第1903行到1905行，就能明白在实现过程中遇到的困惑了。不过从上面的url上可以看到github上看代码的一个小技巧，url后面hash值接L50-L60的意思就是浏览器可以直接定位第50行到60行。
 
 完...
 

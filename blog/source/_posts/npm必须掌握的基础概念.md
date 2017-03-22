@@ -23,7 +23,7 @@ npm install是一个经常会用到的命令，--save和--registry参数也会�
 $ npm install XXX --save --registry=XXX
 ``` 
 --save的意思：安装完成之后，会自动写入到你的packjson.json的dependencies里面。
---registry的意思：你这个包可以从哪个源来下载，不加这个参数的时候默认是从[npm](https://www.npmjs.com/)上面来下载，但是由于GFW的原因，有时候可能会下载失败，这时候我们也可以添加国内的镜像，例如：[淘宝的](https://npm.taobao.org/)，[美团的](http://npm.sankuai.com/)，淘宝的的镜像每隔10分钟会与官方服务器同步一次，用淘宝的源一般不会安装失败。
+--registry的意思：你这个包可以从哪个源来下载，不加这个参数的时候默认是从[npm](https://www.npmjs.com/)上面来下载，但是由于GFW的原因，有时候可能会下载失败，这时候我们也可以添加国内的镜像，例如：[淘宝的](https://npm.taobao.org/)，[美团的](https://npm.sankuai.com/)，淘宝的的镜像每隔10分钟会与官方服务器同步一次，用淘宝的源一般不会安装失败。
 卸载某一个包就是把install换成uninstall就好了
 
 ## npm 发布自己的module

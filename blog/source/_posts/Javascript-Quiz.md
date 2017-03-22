@@ -27,7 +27,7 @@ var f = function g(){ return 23; };
 typeof g();
 ```
 
-考察函数表达式相关知识，[参考](http://kangax.github.io/nfe/)
+考察函数表达式相关知识，[参考](https://kangax.github.io/nfe/)
 
 ## 第三题
 
@@ -38,7 +38,7 @@ typeof g();
 })(1);
 ```
 
-考察参数是否可以被删除，[参考](http://perfectionkills.com/understanding-delete/)
+考察参数是否可以被删除，[参考](https://perfectionkills.com/understanding-delete/)
 
 ## 第四题
 
@@ -94,7 +94,7 @@ var f = (function f(){ return "1"; }, function g(){ return 2; })();
 typeof f;
 ```
 
-考察逗号和括号表达式问题，[参考](http://www.2ality.com/2012/09/expressions-vs-statements.html)
+考察逗号和括号表达式问题，[参考](https://www.2ality.com/2012/09/expressions-vs-statements.html)
 
 ## 第九题
 
@@ -127,7 +127,7 @@ function f(){ return f; }
 new f() instanceof f;
 ```
 
-考察new运算符相关知识，[参考](http://www.cnblogs.com/aaronjs/archive/2012/07/04/2575570.html)
+考察new运算符相关知识，[参考](https://www.cnblogs.com/aaronjs/archive/2012/07/04/2575570.html)
 
 ## 第十二题
 
@@ -154,7 +154,7 @@ function(foo){
 with (function(x, undefined){}) length;
 ``` 
 
-考察with，和函数length问题，其实就是参数的个数，[参考](http://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Reference:Statements:with)
+考察with，和函数length问题，其实就是参数的个数，[参考](https://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Reference:Statements:with)
 
 
 ## 答案汇总

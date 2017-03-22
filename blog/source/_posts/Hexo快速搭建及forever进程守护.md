@@ -15,7 +15,7 @@ Hexo是一个采用nodejs的静态博客，市面上的类似的博客也有很�
 
 ## Hexo进程守护
 
-Node进程守护有很多工具，[Forever](https://www.npmjs.com/package/forever)，[PM2](http://pm2.keymetrics.io/)，[PM2.5](https://www.npmjs.com/package/pm25) blah blah.
+Node进程守护有很多工具，[Forever](https://www.npmjs.com/package/forever)，[PM2](https://pm2.keymetrics.io/)，[PM2.5](https://www.npmjs.com/package/pm25) blah blah.
 解决的问题也是很容易讲清楚，比如：ssh登陆服务器，启动node服务，然后ssh断开连接，服务中断，网站无法访问。
 这里讲一下用forever 解决 Hexo 进程守护的问题：
 ### 安装forever：

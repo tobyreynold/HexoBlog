@@ -2,7 +2,7 @@
 
 [![Join the chat at https://gitter.im/xiangming/landscape-plus](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/xiangming/landscape-plus?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-针对中国大陆的hexo用户，优化hexo官方主题landscape。支持hexo 3.x 和 hexo 2.x。[**演示**](http://jasonxiang.com/landscape-plus/)
+针对中国大陆的hexo用户，优化hexo官方主题landscape。支持hexo 3.x 和 hexo 2.x。[**演示**](https://jasonxiang.com/landscape-plus/)
 
 ## 主题特色
 
@@ -45,8 +45,8 @@ git clone https://github.com/xiangming/landscape-plus.git themes/landscape-plus
 修改hexo的配置文件`_config.yml`，把`theme`的值设置为`landscape-plus`
 ```yml
 # Extensions
-## Plugins: http://hexo.io/plugins/
-## Themes: http://hexo.io/themes/
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
 theme: landscape-plus
 ```
 
@@ -79,7 +79,7 @@ widgets:
 # Links
 links:
   github: https://github.com/tobyreynold
-  weibo: http://weibo.com/liuyelynn
+  weibo: https://weibo.com/liuyelynn
 
 # Miscellaneous
 google_analytics:
