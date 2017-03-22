@@ -74,6 +74,21 @@ $ nginx -s reload
 
 就能生效了，然后启动各自服务的守护进程，就能正常访问了。
 
+## Nginx配置整站gzip压缩
+gzip是一种改进web应用程序性能的一种压缩技术，大流量的WEB站点常常使用GZIP压缩技术来让用户感受更快的速度。这一般是指服务器中安装的一个功能，当有人来访问这个服务器中的网站时，服务器中的这个功能就将网页内容压缩后传输到来访的电脑浏览器中显示出来。一般对纯文本内容可压缩到原大小的40%左右。这样传输就快了，效果就是你点击网址后会很快的显示出来。配置的代码如下：
+``` bash
+ # open gzip
+ gzip                on;
+ gzip_min_length     1k;
+ gzip_buffers        4 16k;
+ # gzip_http_version 1.0;
+ gzip_comp_level     2;
+ gzip_types   text/plain application/x-javascript application/javascript  text/css application/xml text/javascript image/jpeg image/jpg image/png image/gif
+ gzip_vary    on;
+ gzip_disable "MSIE [1-6]\.";
+```
+大致意思就是开启gzip，大于1K的才进行压缩，压缩级别1-10，压缩类型js、主文档、jpg、png、css、gif，IE1~6对gzip支持不好，关闭。
+
 ## 查看Nginx哪些端口被占用
 
 执行 $ss -tnl
