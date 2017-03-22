@@ -9,7 +9,7 @@ tags: Velocity
 自2008年以来Velocity会议持续不断汇集了不同行业背景的人才，他们在Web性能、运维、开发运维方面做出了令人惊奇的工作，通过不断的分享，给其他的企业和开发者带来福音，刚开始的前几届都是在国外举办，Velocity能走进中国，离不开阿里巴巴做出的努力，阿里的同学第一次国外参加Velocity之后，收益良多，于是通过一些资金上的赞助和支持，把Velocity引入了中国，并且中国的大会也不断的有很多优秀的中国互联网公司的同学去当讲师，分享他们在工作中做出优秀的技术贡献和解决方案。
 
 
-![Velocity](http://velocity.oreilly.com.cn/2016/images/velocity2015_svg_logo.svg)
+![Velocity](https://codefilled.com/css/images/velocity.svg)
 
 ## 参加Velocity-2016的感受
 
